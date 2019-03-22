@@ -1,2 +1,32 @@
 1. Windows Event log deactivation
 https://computerstepbystep.com/windows_event_log_service.html
+
+########### AV Evasion #####################################
+
+2. AV Evasion techniques
+https://www.foregenix.com/blog/penetration-testing-the-quest-for-fully-undetectable-malware
+
+3. Manual obfuscation
+https://null-byte.wonderhowto.com/forum/creating-completely-undetectable-executable-under-15-minutes-0175114/
+
+4. Shellter
+https://thehacktoday.com/exploit-backdoor-windows-7-8-10-bypass-antivirus-fud/
+http://www.thesecurityblogger.com/anti-virus-bypass-with-shellter-5-1-on-kali-linux/
+
+5. New FUD crypters
+https://www.crackitdown.com/2018/05/make-keylogger-fully-undetectable.html
+
+6. Veil framework
+https://cyberarms.wordpress.com/2018/05/29/anti-virus-bypass-with-veil-on-kali-linux/
+
+7. Custom msfvenom
+https://github.com/offsecginger
+
+8. Phantom evasion
+https://github.com/oddcod3/Phantom-Evasion
+
+9. Hyperion fun
+https://www.christophertruncer.com/bypass-antivirus-with-meterpreter-as-the-payload-hyperion-fun/
+
+
+
