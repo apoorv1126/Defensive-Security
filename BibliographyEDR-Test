@@ -29,9 +29,28 @@ https://github.com/oddcod3/Phantom-Evasion
 9. Hyperion fun
 https://www.christophertruncer.com/bypass-antivirus-with-meterpreter-as-the-payload-hyperion-fun/
 
+10. Good tool for obfuscation
+TheFatRat
+https://github.com/Screetsec/TheFatRat
+
 ########## Malware collection ##############
 
 https://github.com/malwares
+virusign : (Default pass : infection / infected)
+threatgrid US : (New malware samples)
 
-#######################################
+######################################################
+
+############ EDR MITRE ATTACK Automation #############
+
+1. purple-team-attack-automation
+https://github.com/praetorian-code/purple-team-attack-automation
+
+2. Atomic-Red-team
+https://github.com/redcanaryco/atomic-red-team
+
+######################################################
+
+
+
 
