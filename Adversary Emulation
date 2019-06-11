@@ -1,0 +1,15 @@
+About : 
+Adversary emulation aims to test a network’s resilience against advanced attackers or advanced persistent threats (APTs). 
+To do so, the adversary’s tactics, techniques, and procedures (TTPs) are emulated along the cyber kill chain, leading deeper into the target network on to the objectives or flags. 
+
+Blog on adversary emulation
+https://blog.nviso.be/2018/09/18/the-rise-of-adversary-emulation/
+
+Automate the attacks : 
+
+- Bloodhound + GoFetch
+- Empire +  DeathStar
+- Caldera ### https://www.youtube.com/watch?v=xjDrWStR68E ###
+- Red Team Automation (RTA)
+- Atomic Red Team (ART)
+- Purple team attack-automation ### https://github.com/praetorian-code/purple-team-attack-automation/tree/master/modules/post/windows
