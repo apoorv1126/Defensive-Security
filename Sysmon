@@ -1,2 +1,11 @@
+About : 
+Sysmon is a Windows system service and device driver that monitors system activity and logs events in the Windows event log.
+Sysmon is free, easy to install, and it provides more detailed information than the Windows security logs. 
+QRadar uses the forwarded logs to detect advanced threats on Windows endpoints.
+
 To graphically create the configuration of sysmon
 https://github.com/nshalabi/SysmonTools/blob/master/README.md
+
+
+Qradar Content Extension for Sysmon :
+https://exchange.xforce.ibmcloud.com/hub/extension/e41e758e2ab5786173438cd09219a9d0
