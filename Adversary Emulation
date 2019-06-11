@@ -13,3 +13,4 @@ Automate the attacks :
 - Red Team Automation (RTA)
 - Atomic Red Team (ART)
 - Purple team attack-automation ### https://github.com/praetorian-code/purple-team-attack-automation/tree/master/modules/post/windows
+- APTSimulator
