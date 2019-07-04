@@ -1,0 +1,11 @@
+###############################Powershell Script ########################
+### Power shell script to capture traffic in windows ####################
+### File capture in format .etl #########################################
+### To open use MMA (Microsoft Message Analyser) ########################
+### To convert in .cap format to open with wireshark use MMA ############
+#########################################################################
+$traceTime=20  //seconds
+New-Item -ItemType Directory -Force -Path C:\Temp\packetcapture
+netsh trace start capture=yes traceFile=C:\Temp\packetcapture\PCAPpacketcapture.etl overwrite=yes
+Start-Sleep $traceTime
+netsh trace stop
