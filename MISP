@@ -3,7 +3,10 @@ MISP in docker :
 https://github.com/misp/docker-misp (Priority 1)
 https://github.com/MISP/misp-docker
 
-Tools to extract IOC from different source
 
+Tools to extract IOC from different source
+## Below tool works like MISP as well  ##
 https://docs.paloaltonetworks.com/autofocus/autofocus-admin/autofocus-apps/minemeld
 
+Another MISP type platform
+https://yeti-platform.github.io/
