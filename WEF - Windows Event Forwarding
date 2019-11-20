@@ -1,0 +1,13 @@
+-Installation and setup
+https://www.beyondtrust.com/docs/archive/privilege-management/documents/defendpoint/enterprise-reporting/4-1-291-0/dp-er-event-centralization-4-0.pdf
+https://www.loggly.com/ultimate-guide/centralizing-windows-logs/
+
+-XML Filetering
+https://blogs.technet.microsoft.com/askds/2011/09/26/advanced-xml-filtering-in-the-windows-event-viewer/
+
+-Advance TCP Configuration
+https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc739819(v=ws.10)
+
+- Subscriptions
+https://github.com/palantir/windows-event-forwarding/tree/master/wef-subscriptions
+
