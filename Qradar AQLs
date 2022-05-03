@@ -1,0 +1,4 @@
+########### Top logsources by Seconds : 
+SELECT DATEFORMAT(starttime, 'HH:mm:ss') AS 'minute', LOGSOURCENAME(logsourceid) AS "Log Source", SUM(eventcount) AS "Number of Events in Interval" FROM events GROUP BY "minute","Log Source" ORDER BY "minute", "Number of Events in Interval" DESC LAST 5 MINUTES
+
+
