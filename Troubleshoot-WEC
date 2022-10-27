@@ -1,0 +1,42 @@
+Mode of functioning in 3 domain environment where : 
+- SOURCE is in Domain1
+- WEC is in Domain3
+- Trust is bidirectional bet(Domain1 <-> Domain2 <-> Domain3)
+
+a) SOURCE -> LDAP QUERY to DC Domain1
+b) SOURCE -> Kerberos QUERY to DC Domain1
+c) SOURCE -> LDAP QUERY to DC Domain2
+d) SOURCE -> Kerberos QUERY to DC Domain2
+e) SOURCE -> LDAP QUERY to DC Domain3
+f) SOURCE -> Kerberos QUERY to DC Domain3
+
+After above 6 steps, SOURCE will get the kerberos ticket to communicate to WEC and start sending logs
+
+
+Troubleshoot steps : 
+
+1. Check Firewall for port 5985
+
+2. Check if remoting is enabled
+test-wsman -computername WEC -authentication default
+test-wsman -computername WEC
+
+3. Check Trusted hosts
+Get-Item wsman:localhost\client\trustedhosts
+
+4. Test open ports in multi domain environment
+Test-NetConnection 'FQDN-WEC' -Port 5985
+Test-NetConnection 'DC-Domain1' -Port 389
+Test-NetConnection 'DC-Domain1' -Port 88
+Test-NetConnection 'DC-Domain2' -Port 389
+Test-NetConnection 'DC-Domain2' -Port 88
+Test-NetConnection 'DC-Domain3' -Port 389
+Test-NetConnection 'DC-Domain3' -Port 88
+
+Note : If Test-NetConnection command is not available in powershell, we can download and use a microsoft tool named "PortQry.exe"
+Cmd Eg : .\PortQry -n FQDN-DC-Domain1 -o PORT
+
+5.) Clear caches if required on both servers : 
+To clear DNS name cache : IPConfig /FlushDNS
+To clear NetBIOS name cache : NBTStat –R
+To clear Kerberos tickets : KList purge
