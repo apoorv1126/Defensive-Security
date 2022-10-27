@@ -1,0 +1,64 @@
+
+1. IP - Domains - Emails - Hashes
+https://www.threatminer.org/
+https://www.virustotal.com/
+https://www.talosintelligence.com/
+https://exchange.xforce.ibmcloud.com/
+https://www.abuseipdb.com/
+https://isc.sans.edu/ipinfo.html
+https://www.shodan.io/
+https://www.iplocation.net/ip-lookup
+https://ipinfo.io/
+https://mxtoolbox.com/
+https://zulu.zscaler.com/                             #Paid from Zscaler
+
+2. Site reputations check
+https://sitereview.zscaler.com/
+https://sitereview.bluecoat.com/#/
+https://cybergordon.com/
+
+3. IP Block Assignment
+https://www.arin.net/ - Global
+https://www.ripe.net/ - Europe
+
+4. File Analysis
+https://www.filescan.io/scan                           #### This does not share info with Antivirus companies
+https://www.virustotal.com/
+
+5. Email Blacklist check - MX Check
+https://www.signal-arnaques.com/
+https://mxtoolbox.com/blacklists.aspx
+
+6. Sandbox
+https://www.joesandbox.com/#windows
+https://any.run/
+https://www.hybrid-analysis.com/
+https://www.browserling.com/browser-sandbox             ### URL Sandbox
+https://panacea.threatgrid.eu/                          ### CISCO Paid Sandbox
+
+7. IOC Checks - Malware Check
+https://otx.alienvault.com/
+https://bazaar.abuse.ch/browse/
+
+8. Webpage source code review
+https://www.view-page-source.com/
+
+9. TCP/UDP Ports database
+https://www.speedguide.net/ports.php
+
+10. String converter
+https://gchq.github.io/CyberChef/
+
+11. Useragent Parser
+https://developers.whatismybrowser.com/
+
+
+Miscellaneous:
+1. Recently Update IOC
+https://urlhaus.abuse.ch/api/
+
+2. Online Query + Scan Tool
+https://centralops.net/co/
+
+3. Trend Antivirus Docs
+https://docs.trendmicro.com/all/ent/officescan/v10.6/en-us/osce_10.6_olhsrv/ohelp/scan/vmscanres.htm
